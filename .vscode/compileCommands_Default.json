@@ -1,0 +1,47 @@
+[
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Characters\\\\CharacterBase.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Characters\\\\CharacterBase.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Escape.Build.cs",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Escape.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Escape.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\EscapeGameModeBase.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\EscapeGameModeBase.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\GameModes\\\\BaseGameMode.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\GameModes\\\\BaseGameMode.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	}
+]
