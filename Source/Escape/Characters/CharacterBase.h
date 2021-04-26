@@ -53,7 +53,9 @@ public:
 	void MoveRight(float Val);
 
 	// Action functions
-	void PickUp();
+	void Interact();
+	void PickUp(FHitResult HitResult);
+	void Drop();
 	void Throw();
 	void ChangeGrabDistance(float Val);
 

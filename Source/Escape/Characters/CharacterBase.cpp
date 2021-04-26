@@ -2,13 +2,14 @@
 
 
 #include "CharacterBase.h"
+#include "Escape/Actors/InteractableActor.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
 #define MAX_GRAB_DISTANCE 250.f
-#define MIN_GRAB_DISTANCE 50.f
+#define MIN_GRAB_DISTANCE 100.f
 
 // Sets default values
 ACharacterBase::ACharacterBase()
@@ -42,8 +43,8 @@ void ACharacterBase::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	DrawDebugLine(GetWorld(), Camera->GetComponentLocation(), Camera->GetComponentLocation() + Camera->GetForwardVector() * GrabDistance, FColor::Red, false, 2.f);
-
-	PhysicsComponent->SetTargetLocation(Camera->GetComponentLocation() + Camera->GetForwardVector() * GrabDistance);
+	if (PhysicsComponent->GetGrabbedComponent())
+		PhysicsComponent->SetTargetLocation(Camera->GetComponentLocation() + Camera->GetForwardVector() * GrabDistance);
 }
 
 // Called to bind functionality to input
@@ -66,7 +67,7 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacterBase::Jump);
 
 	// Binding Pick up action
-	PlayerInputComponent->BindAction("PickUp", IE_Pressed, this, &ACharacterBase::PickUp);
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ACharacterBase::Interact);
 
 }
 
@@ -88,30 +89,54 @@ void ACharacterBase::MoveRight(float Val)
 	}
 }
 
-void ACharacterBase::PickUp() 
+void ACharacterBase::Interact() 
 {
-	FVector Start = Camera->GetComponentLocation();
-	FVector End = Start + Camera->GetForwardVector() * GrabDistance;
-	FHitResult HitResult;
 	if (PhysicsComponent->GetGrabbedComponent())
 	{
-		Throw();
+		PhysicsComponent->ReleaseComponent();
 		GrabDistance = MAX_GRAB_DISTANCE;
 		return;
 	}
+	FVector Start = Camera->GetComponentLocation();
+	FVector End = Start + Camera->GetForwardVector() * GrabDistance;
+	FHitResult HitResult;
 	if(GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility))
+	{
+		if (AInteractableActor* InteractedActor = Cast<AInteractableActor>(HitResult.GetActor()))
+		{
+			InteractedActor->Act();
+			return;
+		}
+		PickUp(HitResult);
+	}
+}
+
+void ACharacterBase::PickUp(FHitResult HitResult) 
+{
+	if (PhysicsComponent->GetGrabbedComponent())
+	{
+		Drop();
+		return;
+	}
+	if(HitResult.GetActor() && HitResult.GetActor()->IsRootComponentMovable())
 	{
 		UE_LOG(LogTemp, Warning, TEXT("%s is was tried to pick up"), *(HitResult.GetActor()->GetName()));
 		PhysicsComponent->GrabComponentAtLocation(HitResult.GetComponent(), "", HitResult.GetComponent()->GetComponentLocation());
 	}
 }
 
+void ACharacterBase::Drop() 
+{
+	PhysicsComponent->ReleaseComponent();
+	GrabDistance = MAX_GRAB_DISTANCE;
+}
+
 void ACharacterBase::Throw() 
 {	
-	if(PhysicsComponent->GetGrabbedComponent() != nullptr)
+	if(PhysicsComponent->GetGrabbedComponent())
 	{
 		auto Temp = PhysicsComponent->GetGrabbedComponent();
-		PhysicsComponent->ReleaseComponent();
+		Drop();
 		Temp->AddImpulse(Camera->GetForwardVector() * ImpulseValue);
 	}
 }
