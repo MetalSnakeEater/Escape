@@ -2,6 +2,8 @@
 
 
 #include "InteractableActor.h"
+#include "Escape/Characters/CharacterBase.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AInteractableActor::AInteractableActor()
@@ -27,6 +29,13 @@ void AInteractableActor::Tick(float DeltaTime)
 
 void AInteractableActor::Act() 
 {
-	UE_LOG(LogTemp, Warning, TEXT("%s was interacted"), *GetName())
+	
+}
+
+void AInteractableActor::Response(FString response) 
+{
+	ACharacterBase* Player = Cast<ACharacterBase>(UGameplayStatics::GetPlayerPawn(this, 0));
+	if (Player)
+		Player->ActorResponse = response;
 }
 

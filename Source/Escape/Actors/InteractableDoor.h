@@ -8,6 +8,7 @@
 
 class UCurveFloat;
 class UTimelineComponent;
+class UBoxComponent;
 
 UCLASS()
 class ESCAPE_API AInteractableDoor : public AInteractableActor
@@ -35,6 +36,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	UCurveFloat* DoorCurve;
 
+	UPROPERTY(EditAnywhere)
+	UBoxComponent* KeyTriggerBox;
+
 	// Functions
 	virtual void Act() override;
 
@@ -46,6 +50,13 @@ public:
 
 	UFUNCTION()
     void SetState();
+
+	UFUNCTION()
+    void SetLockeState(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	// Variables
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool isLocked;
 
 	bool Open;
 	bool ReadyState;

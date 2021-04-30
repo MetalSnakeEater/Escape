@@ -10,6 +10,10 @@
 class UCameraComponent;
 class USpringArmComponent;
 class UPhysicsHandleComponent;
+class UWidgetComponent;
+class AInteractableActor;
+class AInteractablePaper;
+class UFallActorComponent;
 
 UCLASS()
 class ESCAPE_API ACharacterBase : public ACharacter
@@ -24,6 +28,7 @@ class ESCAPE_API ACharacterBase : public ACharacter
 
 	UPROPERTY(VisibleDefaultsOnly, Category = PhysicsHandle)
 	UPhysicsHandleComponent* PhysicsComponent;
+
 
 public:
 	// Sets default values for this character's properties
@@ -41,6 +46,33 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = Impulse)
 	float GrabDistance;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	float Opacity;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Movement)
+	float RunSpeed;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Movement)
+	float Stamina;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool isReading;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	FString ActorResponse;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	FString PaperText;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	TSubclassOf<UFallActorComponent> FallComp;
+
+	float DefaultWalkSpeed;
+
+
+	FTimerHandle TimeHandleRun;
+	FTimerHandle TimeHandleStopRun;
+
 	// FUNCTIONS
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -51,6 +83,12 @@ public:
 	// Moving functions
 	void MoveForward(float Val);
 	void MoveRight(float Val);
+	void Run();
+	void StopRun();
+
+	// Looking
+	void LookUp(float Val);
+	void LookRight(float Val);
 
 	// Action functions
 	void Interact();
@@ -58,5 +96,12 @@ public:
 	void Drop();
 	void Throw();
 	void ChangeGrabDistance(float Val);
+	void DecreaseStamina();
+	void RestoreStamina();
+	void Crouch();
+	void Uncrouch();
+
+	UFUNCTION(BlueprintCallable)
+	AInteractableActor* isLookAtInterctable();
 
 };

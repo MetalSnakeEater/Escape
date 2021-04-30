@@ -75,3 +75,9 @@ DerivedDataCache/*
 
 # Starter content pack
 Content/StarterContent/*
+
+# Med pack
+Content/MedievalDungeon/*
+
+# Paper pack
+Content/MS_DebrisPaperV1/*

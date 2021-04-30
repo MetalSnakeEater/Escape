@@ -5,6 +5,8 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/TimelineComponent.h"
+#include "Components/BoxComponent.h"
+#include "Escape/Actor Components/KeyComponent.h"
 
 AInteractableDoor::AInteractableDoor() 
 {
@@ -13,18 +15,25 @@ AInteractableDoor::AInteractableDoor()
 
     Open = false;
     ReadyState = true;
+    isLocked = false;
 
     DoorFrame = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DoorFrame"));
     RootComponent = DoorFrame;
 
     Door = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DoorMesh"));
     Door->SetupAttachment(RootComponent);
+
+    KeyTriggerBox = CreateDefaultSubobject<UBoxComponent>(TEXT("KeyTriggerBox"));
+    KeyTriggerBox->SetupAttachment(RootComponent);  
+
+    //KeyTriggerBox->OnComponentBeginOverlap.AddDynamic(this,&AInteractableDoor::SetLockeState);
 }
 
 // Called when the game starts or when spawned
 void AInteractableDoor::BeginPlay()
 {
 	Super::BeginPlay();
+    KeyTriggerBox->OnComponentBeginOverlap.AddDynamic(this,&AInteractableDoor::SetLockeState);
 
     RotateValue = 90.0f;
 
@@ -58,7 +67,16 @@ void AInteractableDoor::Tick(float DeltaTime)
 
 void AInteractableDoor::Act() 
 {
-	ToggleDoor();
+    if (!isLocked)
+	    ToggleDoor();
+    else
+    {
+        Response("Locked");
+        FTimerDelegate TimerDel;
+        FTimerHandle TimerHandle;
+        TimerDel.BindUFunction(this, FName("Response"));
+        GetWorldTimerManager().SetTimer(TimerHandle, TimerDel, .5f, false);
+    } 
 }
 
 void AInteractableDoor::ControlDoor()
@@ -90,7 +108,7 @@ void AInteractableDoor::ToggleDoor()
         Direction = UKismetMathLibrary::LessLess_VectorRotator(Direction, GetActorRotation());
 
         if(Open)
-        {     
+        { 
             if(Direction.X > 0.0f)
             {
                 RotateValue = 90.0f;
@@ -115,4 +133,21 @@ void AInteractableDoor::ToggleDoor()
             }
         }
     }
+}
+
+void AInteractableDoor::SetLockeState(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) 
+{
+    TArray<UKeyComponent*> comps;
+	OtherActor->GetComponents<UKeyComponent>(comps);
+
+	for (auto comp : comps)
+	{
+        UE_LOG(LogTemp, Warning, TEXT("%s"), *(comp->GetName()));
+		if (UKeyComponent* key = Cast<UKeyComponent>(comp))
+		{
+            isLocked = false;
+            OtherActor->Destroy();
+            return;
+        }
+	}
 }
