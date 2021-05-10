@@ -1,147 +1,147 @@
 [
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actor Components\\\\FallActorComponent.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actor Components\\\\FallActorComponent.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actor Components\\\\FallActorComponent.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actor Components\\\\FallActorComponent.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actor Components\\\\KeyComponent.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actor Components\\\\KeyComponent.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actor Components\\\\KeyComponent.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actor Components\\\\KeyComponent.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\FallActor.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\FallActor.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\FallActor.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\FallActor.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableActor.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableActor.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableActor.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableActor.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableButton.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableButton.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableButton.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableButton.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableDoor.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableDoor.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableDoor.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractableDoor.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractablePaper.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractablePaper.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractablePaper.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InteractablePaper.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\PressurePlayerBase.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\PressurePlayerBase.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\PressurePlayerBase.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\PressurePlayerBase.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\TeleportPlateBase.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\TeleportPlateBase.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\TeleportPlateBase.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\TeleportPlateBase.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Characters\\\\CharacterBase.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Characters\\\\CharacterBase.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Characters\\\\CharacterBase.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Characters\\\\CharacterBase.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Escape.Build.cs",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Escape.Build.cs",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Escape.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Escape.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\Escape.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Escape.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\EscapeGameModeBase.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\EscapeGameModeBase.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\EscapeGameModeBase.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\EscapeGameModeBase.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\GameModes\\\\BaseGameMode.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\GameModes\\\\BaseGameMode.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\GameModes\\\\BaseGameMode.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\GameModes\\\\BaseGameMode.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\PlayerControllers\\\\PlayerControllerBase.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\PlayerControllers\\\\PlayerControllerBase.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\Escape\\\\Source\\\\Escape\\\\PlayerControllers\\\\PlayerControllerBase.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\PlayerControllers\\\\PlayerControllerBase.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	}
 ]
