@@ -21,6 +21,7 @@ public:
 
 	UPROPERTY(EditInstanceOnly, BlueprintReadOnly, Category = Text)
 	FString Text;
+	UPROPERTY(BlueprintReadOnly)
 	bool isRead;
 
 	virtual void Act() override;

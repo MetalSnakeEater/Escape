@@ -14,6 +14,7 @@ class UWidgetComponent;
 class AInteractableActor;
 class AInteractablePaper;
 class UFallActorComponent;
+class USoundBase;
 
 UCLASS()
 class ESCAPE_API ACharacterBase : public ACharacter
@@ -58,6 +59,9 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 	bool isReading;
 
+	UPROPERTY(BlueprintReadOnly)
+	bool isRunning;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	FString ActorResponse;
 
@@ -66,6 +70,12 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TSubclassOf<UFallActorComponent> FallComp;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	USoundBase* PaperSound;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	USoundBase* PaperSoundDown;
 
 	float DefaultWalkSpeed;
 

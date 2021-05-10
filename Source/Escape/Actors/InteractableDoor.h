@@ -9,6 +9,7 @@
 class UCurveFloat;
 class UTimelineComponent;
 class UBoxComponent;
+class USoundBase;
 
 UCLASS()
 class ESCAPE_API AInteractableDoor : public AInteractableActor
@@ -57,6 +58,12 @@ public:
 	// Variables
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	bool isLocked;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	USoundBase* OpenSound;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	USoundBase* UnlockSound;
 
 	bool Open;
 	bool ReadyState;

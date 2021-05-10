@@ -10,6 +10,7 @@ class AInteractableDoor;
 class UCurveFloat;
 class UTimelineComponent;
 class UArrowComponent;
+class USoundBase;
 
 UCLASS()
 class ESCAPE_API AInteractableButton : public AInteractableActor
@@ -51,6 +52,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	UArrowComponent* DirectionArrow;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	USoundBase* ClickSound;
 
 	bool ReadyState;
 	FVector PlayerDirection;

@@ -7,6 +7,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Components/TimelineComponent.h"
 #include "Components/ArrowComponent.h"
+#include "Sound/SoundBase.h"
 
 AInteractableButton::AInteractableButton()
 {
@@ -82,6 +83,8 @@ void AInteractableButton::Act()
             ReadyState = false;
             if (MyTimeline != NULL)
 	        {
+                if (ClickSound)
+                    UGameplayStatics::PlaySound2D(GetWorld(), ClickSound, 5.f);
                 MyTimeline->PlayFromStart();
             }
         }

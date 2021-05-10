@@ -14,6 +14,8 @@
 #include "DrawDebugHelpers.h"
 #include "Components/WidgetComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Sound/SoundBase.h"
+#include "Sound/SoundConcurrency.h"
 #define MAX_GRAB_DISTANCE 250.f
 #define MIN_GRAB_DISTANCE 100.f
 
@@ -42,6 +44,7 @@ ACharacterBase::ACharacterBase()
 	RunSpeed = 1.5f;
 	Stamina = 100.f;
 	isReading = false;
+	isRunning = false;
 }
 
 // Called when the game starts or when spawned
@@ -56,7 +59,7 @@ void ACharacterBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	//isLookAtInterctable();
+	isLookAtInterctable();
 	//UE_LOG(LogTemp,Warning, TEXT("%f"), Stamina);
 
 	//DrawDebugLine(GetWorld(), Camera->GetComponentLocation(), Camera->GetComponentLocation() + Camera->GetForwardVector() * GrabDistance, FColor::Red, false, 2.f);
@@ -160,6 +163,7 @@ void ACharacterBase::Run()
 {
 	if (!GetCharacterMovement()->IsCrouching())
 	{
+		isRunning = true;
 		GetCharacterMovement()->MaxWalkSpeed *= RunSpeed;
 		GetWorldTimerManager().ClearTimer(TimeHandleStopRun);
 		GetWorldTimerManager().SetTimer(TimeHandleRun, this, &ACharacterBase::DecreaseStamina, .01f, true);
@@ -168,6 +172,7 @@ void ACharacterBase::Run()
 
 void ACharacterBase::StopRun() 
 {
+	isRunning = false;
 	GetCharacterMovement()->MaxWalkSpeed = DefaultWalkSpeed;
 	GetWorldTimerManager().ClearTimer(TimeHandleRun);
 	GetWorldTimerManager().SetTimer(TimeHandleStopRun, this, &ACharacterBase::RestoreStamina, .01f, true);
@@ -179,6 +184,8 @@ void ACharacterBase::Interact()
 	if (isReading)
 	{
 		isReading = false;
+		if (PaperSoundDown)
+				UGameplayStatics::PlaySound2D(GetWorld(), PaperSoundDown, 10.f, 1.f, 0.6f);
 
 		APlayerControllerBase* PlayerCon = Cast<APlayerControllerBase>(UGameplayStatics::GetPlayerController(GetWorld(), 0));
 		if (PlayerCon)
@@ -201,6 +208,9 @@ void ACharacterBase::Interact()
 		if (AInteractablePaper* Paper = Cast<AInteractablePaper>(HitResult.GetActor()))
 		{
 			isReading = true;
+			if (PaperSound)
+				UGameplayStatics::PlaySound2D(GetWorld(), PaperSound, 1.f, 1.f, 0.2f);
+
 			PaperText = Paper->Text;
 			APlayerControllerBase* PlayerCon = Cast<APlayerControllerBase>(UGameplayStatics::GetPlayerController(GetWorld(), 0));
 			if (PlayerCon)

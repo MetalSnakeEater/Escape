@@ -26,6 +26,6 @@ public:
 	// Functions
 	virtual void Act();
 	UFUNCTION()
-	void Response(FString response = "");
+	void Response(FString response = " ");
 
 };

@@ -8,6 +8,7 @@
 #include "PressurePlayerBase.generated.h"
 
 class UBoxComponent;
+class USoundBase;
 
 UCLASS()
 class ESCAPE_API APressurePlayerBase : public AActor
@@ -43,6 +44,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	float MassToAct;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	USoundBase* ActivationSound;
 	
 	float CurrentMass;
 	bool IsActivated;

@@ -4,6 +4,8 @@
 #include "PressurePlayerBase.h"
 #include "Components/BoxComponent.h"
 #include "InteractableDoor.h"
+#include "Sound/SoundBase.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 APressurePlayerBase::APressurePlayerBase()
@@ -51,10 +53,14 @@ void APressurePlayerBase::OnBeginOverlap(UPrimitiveComponent* HitComponent, AAct
 		if (UStaticMeshComponent* mesh = Cast<UStaticMeshComponent>(comp))
 			CurrentMass += mesh->GetMass();
 	}
+
 	UE_LOG(LogTemp, Warning, TEXT("%f"), CurrentMass);
 	if (!IsActivated && CurrentMass >= MassToAct)
 		if (ActorToActivate)
 		{
+			if (ActivationSound)
+				UGameplayStatics::PlaySoundAtLocation(GetWorld(), ActivationSound, GetActorLocation());
+				
 			IsActivated = true;
 			if (AInteractableDoor* Door = Cast<AInteractableDoor>(ActorToActivate))
 			{

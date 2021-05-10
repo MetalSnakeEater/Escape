@@ -7,6 +7,7 @@
 #include "Components/TimelineComponent.h"
 #include "Components/BoxComponent.h"
 #include "Escape/Actor Components/KeyComponent.h"
+#include "Sound/SoundBase.h"
 
 AInteractableDoor::AInteractableDoor() 
 {
@@ -121,6 +122,10 @@ void AInteractableDoor::ToggleDoor()
             ReadyState = false;
             if (MyTimeline != NULL)
 	        {
+                if (OpenSound)
+                {
+                    UGameplayStatics::PlaySoundAtLocation(GetWorld(), OpenSound, GetActorLocation(), 1.f, 1.f, 0.3f);
+                }
                 MyTimeline->PlayFromStart();
             }
         }
@@ -129,6 +134,10 @@ void AInteractableDoor::ToggleDoor()
             ReadyState = false;
             if (MyTimeline != NULL)
 	        {
+                if (OpenSound)
+                {
+                    UGameplayStatics::PlaySoundAtLocation(GetWorld(), OpenSound, GetActorLocation(), 1.f, 1.f, 0.3f);
+                }
                 MyTimeline->Reverse();
             }
         }
@@ -137,17 +146,22 @@ void AInteractableDoor::ToggleDoor()
 
 void AInteractableDoor::SetLockeState(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) 
 {
-    TArray<UKeyComponent*> comps;
-	OtherActor->GetComponents<UKeyComponent>(comps);
+    if (isLocked)
+    {
+        TArray<UKeyComponent*> comps;
+        OtherActor->GetComponents<UKeyComponent>(comps);
 
-	for (auto comp : comps)
-	{
-        UE_LOG(LogTemp, Warning, TEXT("%s"), *(comp->GetName()));
-		if (UKeyComponent* key = Cast<UKeyComponent>(comp))
-		{
-            isLocked = false;
-            OtherActor->Destroy();
-            return;
+        for (auto comp : comps)
+        {
+            UE_LOG(LogTemp, Warning, TEXT("%s"), *(comp->GetName()));
+            if (UKeyComponent* key = Cast<UKeyComponent>(comp))
+            {
+                if (UnlockSound)
+                    UGameplayStatics::PlaySoundAtLocation(GetWorld(), UnlockSound, GetActorLocation(), 5.f);
+                isLocked = false;
+                OtherActor->Destroy();
+                return;
+            }
         }
-	}
+    }
 }

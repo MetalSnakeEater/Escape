@@ -5,124 +5,124 @@
 			"name": "Escape (Debug)",
 			"request": "launch",
 			"preLaunchTask": "Escape Win64 Debug Build",
-			"program": "D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"program": "D:\\UE 25\\Projects\\Escape\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "Escape (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "Escape Win64 DebugGame Build",
-			"program": "D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"program": "D:\\UE 25\\Projects\\Escape\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "Escape (Development)",
 			"request": "launch",
 			"preLaunchTask": "Escape Win64 Development Build",
-			"program": "D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Binaries\\Win64\\UE4.exe",
+			"program": "D:\\UE 25\\Projects\\Escape\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "Escape (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "Escape Win64 Shipping Build",
-			"program": "D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"program": "D:\\UE 25\\Projects\\Escape\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "Escape (Test)",
 			"request": "launch",
 			"preLaunchTask": "Escape Win64 Test Build",
-			"program": "D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"program": "D:\\UE 25\\Projects\\Escape\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "EscapeEditor (Debug)",
 			"request": "launch",
 			"preLaunchTask": "EscapeEditor Win64 Debug Build",
-			"program": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"program": "D:\\UE 25\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject"
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject"
 			],
-			"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "EscapeEditor (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "EscapeEditor Win64 DebugGame Build",
-			"program": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"program": "D:\\UE 25\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject"
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject"
 			],
-			"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "EscapeEditor (Development)",
 			"request": "launch",
 			"preLaunchTask": "EscapeEditor Win64 Development Build",
-			"program": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"program": "D:\\UE 25\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject"
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject"
 			],
-			"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "Generate Project Files",
 			"type": "clr",
 			"request": "launch",
-			"program": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"program": "D:\\UE 25\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
 			"console": "externalTerminal",
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"-project=D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-game",
 				"-engine"
 			],
 			"internalConsoleOptions": "openOnSessionStart",
-			"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+			"cwd": "D:\\UE 25\\UE_4.26"
 		}
 	]
 }

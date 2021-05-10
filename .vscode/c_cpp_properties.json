@@ -3,14 +3,14 @@
         {
             "name": "EscapeEditor Editor Win64 Development (Escape)",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Escape.json",
+            "compileCommands": "D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Escape.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         },
         {
             "name": "Win32",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default.json",
+            "compileCommands": "D:\\UE 25\\Projects\\Escape\\.vscode\\compileCommands_Default.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         }

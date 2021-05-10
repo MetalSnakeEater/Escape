@@ -9,13 +9,13 @@
 				"Escape",
 				"Win32",
 				"Debug",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"Escape",
 				"Win32",
 				"Debug",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -35,7 +35,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -46,13 +46,13 @@
 				"Escape",
 				"Win32",
 				"Debug",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -63,13 +63,13 @@
 				"Escape",
 				"Win32",
 				"DebugGame",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -80,7 +80,7 @@
 				"Escape",
 				"Win32",
 				"DebugGame",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -89,7 +89,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -100,13 +100,13 @@
 				"Escape",
 				"Win32",
 				"DebugGame",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -117,13 +117,13 @@
 				"Escape",
 				"Win32",
 				"Development",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -134,7 +134,7 @@
 				"Escape",
 				"Win32",
 				"Development",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -143,7 +143,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -154,13 +154,13 @@
 				"Escape",
 				"Win32",
 				"Development",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -171,13 +171,13 @@
 				"Escape",
 				"Win32",
 				"Shipping",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -188,7 +188,7 @@
 				"Escape",
 				"Win32",
 				"Shipping",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -197,7 +197,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -208,13 +208,13 @@
 				"Escape",
 				"Win32",
 				"Shipping",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -225,13 +225,13 @@
 				"Escape",
 				"Win32",
 				"Test",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -242,7 +242,7 @@
 				"Escape",
 				"Win32",
 				"Test",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -251,7 +251,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -262,13 +262,13 @@
 				"Escape",
 				"Win32",
 				"Test",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -279,13 +279,13 @@
 				"Escape",
 				"Win64",
 				"Debug",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -296,7 +296,7 @@
 				"Escape",
 				"Win64",
 				"Debug",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -305,7 +305,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -316,13 +316,13 @@
 				"Escape",
 				"Win64",
 				"Debug",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -333,13 +333,13 @@
 				"Escape",
 				"Win64",
 				"DebugGame",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -350,7 +350,7 @@
 				"Escape",
 				"Win64",
 				"DebugGame",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -359,7 +359,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -370,13 +370,13 @@
 				"Escape",
 				"Win64",
 				"DebugGame",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -387,13 +387,13 @@
 				"Escape",
 				"Win64",
 				"Development",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -404,7 +404,7 @@
 				"Escape",
 				"Win64",
 				"Development",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -413,7 +413,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -424,13 +424,13 @@
 				"Escape",
 				"Win64",
 				"Development",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -441,13 +441,13 @@
 				"Escape",
 				"Win64",
 				"Shipping",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -458,7 +458,7 @@
 				"Escape",
 				"Win64",
 				"Shipping",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -467,7 +467,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -478,13 +478,13 @@
 				"Escape",
 				"Win64",
 				"Shipping",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -495,13 +495,13 @@
 				"Escape",
 				"Win64",
 				"Test",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -512,7 +512,7 @@
 				"Escape",
 				"Win64",
 				"Test",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -521,7 +521,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -532,13 +532,283 @@
 				"Escape",
 				"Win64",
 				"Test",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Debug",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Debug",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Debug",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"DebugGame",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"DebugGame",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"DebugGame",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Development",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Development",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Development",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Shipping",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Shipping",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Shipping",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Test",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Test",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
+			}
+		},
+		{
+			"label": "Escape IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Escape",
+				"IOS",
+				"Test",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -549,13 +819,13 @@
 				"EscapeEditor",
 				"Win64",
 				"Debug",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -566,7 +836,7 @@
 				"EscapeEditor",
 				"Win64",
 				"Debug",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -575,7 +845,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -586,13 +856,13 @@
 				"EscapeEditor",
 				"Win64",
 				"Debug",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -603,13 +873,13 @@
 				"EscapeEditor",
 				"Win64",
 				"DebugGame",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -620,7 +890,7 @@
 				"EscapeEditor",
 				"Win64",
 				"DebugGame",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -629,7 +899,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -640,13 +910,13 @@
 				"EscapeEditor",
 				"Win64",
 				"DebugGame",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -657,13 +927,13 @@
 				"EscapeEditor",
 				"Win64",
 				"Development",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -674,7 +944,7 @@
 				"EscapeEditor",
 				"Win64",
 				"Development",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -683,7 +953,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		},
 		{
@@ -694,13 +964,13 @@
 				"EscapeEditor",
 				"Win64",
 				"Development",
-				"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\Escape.uproject",
+				"D:\\UE 25\\Projects\\Escape\\Escape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\Programs\\UnrealEngine\\UE_4.26"
+				"cwd": "D:\\UE 25\\UE_4.26"
 			}
 		}
 	]
