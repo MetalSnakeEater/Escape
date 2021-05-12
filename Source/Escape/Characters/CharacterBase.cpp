@@ -52,6 +52,7 @@ void ACharacterBase::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	RespawnPoint = GetActorLocation();
 }
 
 // Called every frame
@@ -60,11 +61,17 @@ void ACharacterBase::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	isLookAtInterctable();
-	//UE_LOG(LogTemp,Warning, TEXT("%f"), Stamina);
 
-	//DrawDebugLine(GetWorld(), Camera->GetComponentLocation(), Camera->GetComponentLocation() + Camera->GetForwardVector() * GrabDistance, FColor::Red, false, 2.f);
 	if (PhysicsComponent->GetGrabbedComponent())
-		PhysicsComponent->SetTargetLocation(Camera->GetComponentLocation() + Camera->GetForwardVector() * GrabDistance);
+	{
+		//UE_LOG(LogTemp,Warning, TEXT("%f"), (GetActorLocation() - PhysicsComponent->GrabbedComponent->GetComponentLocation()).GetAbs().Size());
+		if ((GetActorLocation() - PhysicsComponent->GrabbedComponent->GetComponentLocation()).GetAbs().Size() > MAX_GRAB_DISTANCE)
+		{
+			PhysicsComponent->GetGrabbedComponent()->SetWorldLocation(Camera->GetComponentLocation() + Camera->GetForwardVector() * GrabDistance);
+		}
+		else
+			PhysicsComponent->SetTargetLocation(Camera->GetComponentLocation() + Camera->GetForwardVector() * GrabDistance);
+	}
 }
 
 // Called to bind functionality to input
@@ -281,4 +288,15 @@ AInteractableActor* ACharacterBase::isLookAtInterctable()
 	}
 	Opacity = 0.5f;
 	return nullptr;
+}
+
+void ACharacterBase::SetRespawnPoint(FVector Loc) 
+{
+	RespawnPoint = Loc;
+}
+
+void ACharacterBase::Respawn() 
+{
+	GetCharacterMovement()->StopMovementImmediately();
+	SetActorLocation(RespawnPoint);
 }

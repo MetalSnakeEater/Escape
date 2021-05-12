@@ -246,6 +246,8 @@
 /I"D:\Programs\UnrealEngine\UE_4.26\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public"
 /I"D:\Programs\UnrealEngine\Protjects\Escape\Intermediate\Build\Win64\UE4Editor\Inc\Escape"
 /I"D:\Programs\UnrealEngine\Protjects\Escape\Source"
+/I"D:\Programs\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelSequence"
+/I"D:\Programs\UnrealEngine\UE_4.26\Engine\Source\Runtime\LevelSequence\Public"
 /I"D:\Programs\UnrealEngine\UE_4.26\Engine\Source\ThirdParty\PhysX3\PxShared\include"
 /I"D:\Programs\UnrealEngine\UE_4.26\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager"
 /I"D:\Programs\UnrealEngine\UE_4.26\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf"

@@ -7,6 +7,7 @@
 #include "InteractableButton.generated.h"
 
 class AInteractableDoor;
+class AInteractableActor;
 class UCurveFloat;
 class UTimelineComponent;
 class UArrowComponent;
@@ -44,8 +45,11 @@ public:
     void SetState();
 
 	// Variables
+	// UPROPERTY(EditInstanceOnly, category = ConnectedObject)
+	// AInteractableDoor* DoorToOpen;
+
 	UPROPERTY(EditInstanceOnly, category = ConnectedObject)
-	AInteractableDoor* DoorToOpen;
+	AInteractableActor* ActivateActor;
 
 	UPROPERTY(EditAnywhere)
 	UCurveFloat* ButtonCurve;

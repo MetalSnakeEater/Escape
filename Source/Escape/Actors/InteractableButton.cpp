@@ -3,6 +3,7 @@
 
 #include "InteractableButton.h"
 #include "InteractableDoor.h"
+#include "InteractableActor.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/TimelineComponent.h"
@@ -63,24 +64,10 @@ void AInteractableButton::Tick(float DeltaTime)
 
 void AInteractableButton::Act() 
 {
-    if (DoorToOpen)
+    if (ActivateActor)
     {
-        APawn* OurPawn = UGameplayStatics::GetPlayerPawn(this, 0);
-        FVector PawnLocation = OurPawn->GetActorLocation();
-        PlayerDirection = GetActorLocation() - PawnLocation;
-        PlayerDirection = UKismetMathLibrary::LessLess_VectorRotator(PlayerDirection, GetActorRotation());
-
         if (ReadyState)
         {
-            if(PlayerDirection.Z > 0.0f)
-            {
-                ButtonDirection = -1.f;
-            }
-            else
-            {
-                ButtonDirection = 1.f;
-            }
-            ReadyState = false;
             if (MyTimeline != NULL)
 	        {
                 if (ClickSound)
@@ -88,10 +75,17 @@ void AInteractableButton::Act()
                 MyTimeline->PlayFromStart();
             }
         }
-        DoorToOpen->isLocked = false;
-        DoorToOpen->Act();
-        DoorToOpen->isLocked = true;
+
+        if (AInteractableDoor* DoorToOpen = Cast<AInteractableDoor>(ActivateActor))
+        {
+            DoorToOpen->isLocked = false;
+            DoorToOpen->Act();
+            DoorToOpen->isLocked = true;
+        }
+        else
+            ActivateActor->Act();
     }
+    
 }
 
 void AInteractableButton::ControlButton() 

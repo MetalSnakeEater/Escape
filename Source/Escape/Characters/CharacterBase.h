@@ -30,7 +30,6 @@ class ESCAPE_API ACharacterBase : public ACharacter
 	UPROPERTY(VisibleDefaultsOnly, Category = PhysicsHandle)
 	UPhysicsHandleComponent* PhysicsComponent;
 
-
 public:
 	// Sets default values for this character's properties
 	ACharacterBase();
@@ -79,7 +78,7 @@ public:
 
 	float DefaultWalkSpeed;
 
-
+	FVector RespawnPoint;
 	FTimerHandle TimeHandleRun;
 	FTimerHandle TimeHandleStopRun;
 
@@ -110,6 +109,13 @@ public:
 	void RestoreStamina();
 	void Crouch();
 	void Uncrouch();
+
+	// Respawn relaitable
+	UFUNCTION(BlueprintCallable)
+	void SetRespawnPoint(FVector Loc);
+
+	UFUNCTION(BlueprintCallable)
+	void Respawn();
 
 	UFUNCTION(BlueprintCallable)
 	AInteractableActor* isLookAtInterctable();

@@ -70,6 +70,16 @@
 		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
 	},
 	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InterActor_LvlSequenceTrigger.cpp",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\InterActor_LvlSequenceTrigger.h",
+		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
+		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "D:\\\\Programs\\\\UnrealEngine\\\\Protjects\\\\Escape\\\\Source\\\\Escape\\\\Actors\\\\PressurePlayerBase.cpp",
 		"command": "cl.exe @\"D:\\Programs\\UnrealEngine\\Protjects\\Escape\\.vscode\\compileCommands_Default\\Escape.182.rsp\"",
 		"directory": "D:\\Programs\\UnrealEngine\\UE_4.26\\Engine\\Source"
