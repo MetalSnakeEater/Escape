@@ -267,9 +267,12 @@ void ACharacterBase::Throw()
 
 void ACharacterBase::ChangeGrabDistance(float Val) 
 {
-	float ChangedGrabDistance = GrabDistance + 50 * Val;
-	if (PhysicsComponent->GetGrabbedComponent() && ChangedGrabDistance >= MIN_GRAB_DISTANCE && ChangedGrabDistance <= MAX_GRAB_DISTANCE)
-		GrabDistance = ChangedGrabDistance;
+	if (PhysicsComponent->GetGrabbedComponent())
+	{
+		float ChangedGrabDistance = GrabDistance + 50 * Val;
+		if (ChangedGrabDistance >= MIN_GRAB_DISTANCE && ChangedGrabDistance <= MAX_GRAB_DISTANCE)
+			GrabDistance = ChangedGrabDistance;
+	}
 }
 
 AInteractableActor* ACharacterBase::isLookAtInterctable() 

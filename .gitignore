@@ -90,3 +90,10 @@ Content/FXVarietyPack/*
 
 # InfinityBladeEffects pack
 Content/InfinityBladeEffects/*
+
+# LandscapePack pack
+Content/LandscapePackOne/*
+Content/LandscapePackTwo/*
+
+# WaterPlane pack
+Content/WaterPlane/*

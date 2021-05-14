@@ -4,6 +4,7 @@
 #include "InteractableButton.h"
 #include "InteractableDoor.h"
 #include "InteractableActor.h"
+#include "RiddleButton.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/TimelineComponent.h"
@@ -74,18 +75,21 @@ void AInteractableButton::Act()
                     UGameplayStatics::PlaySound2D(GetWorld(), ClickSound, 5.f);
                 MyTimeline->PlayFromStart();
             }
-        }
 
-        if (AInteractableDoor* DoorToOpen = Cast<AInteractableDoor>(ActivateActor))
-        {
-            DoorToOpen->isLocked = false;
-            DoorToOpen->Act();
-            DoorToOpen->isLocked = true;
-        }
-        else
-            ActivateActor->Act();
-    }
-    
+            if (AInteractableDoor* DoorToOpen = Cast<AInteractableDoor>(ActivateActor))
+            {
+                DoorToOpen->isLocked = false;
+                DoorToOpen->Act();
+                DoorToOpen->isLocked = true;
+            }
+            else if (ARiddleButton* Riddle = Cast<ARiddleButton>(ActivateActor))
+            {
+                Riddle->Act(this);
+            }
+            else
+                ActivateActor->Act();
+        }  
+    } 
 }
 
 void AInteractableButton::ControlButton() 
